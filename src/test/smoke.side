@@ -1,0 +1,526 @@
+{
+  "id": "68f2c21c-903d-4f5c-bfb3-4399815b8694",
+  "version": "2.0",
+  "name": "DBE Goals",
+  "url": "https://dbegoals.azdot.gov",
+  "tests": [{
+    "id": "51b18b58-1e12-482a-be4c-138f66bc1b10",
+    "name": "Smoke Test",
+    "commands": [{
+      "id": "059b7a7c-83d9-4b39-838d-34b9e62b901e",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "467a0297-e3f2-4a92-9317-e8b2bace9d42",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1583x1157",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1a79d60c-090f-477a-b73e-f4acf8a99dcc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-md-2 > .btn",
+      "targets": [
+        ["css=.col-md-2 > .btn", "css:finder"],
+        ["xpath=//input[@value='Log in']", "xpath:attributes"],
+        ["xpath=//section[@id='loginForm']/form/div/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d3986e0-51e0-4d6e-ac58-54a983d6551d",
+      "comment": "",
+      "command": "type",
+      "target": "id=Email",
+      "targets": [
+        ["id=Email", "id"],
+        ["name=Email", "name"],
+        ["css=#Email", "css:finder"],
+        ["xpath=//input[@id='Email']", "xpath:attributes"],
+        ["xpath=//section[@id='loginForm']/form/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "bob@example.com"
+    }, {
+      "id": "eb8f01f8-0995-478a-8fe4-fc9d4753abf2",
+      "comment": "",
+      "command": "type",
+      "target": "id=Password",
+      "targets": [
+        ["id=Password", "id"],
+        ["name=Password", "name"],
+        ["css=#Password", "css:finder"],
+        ["xpath=//input[@id='Password']", "xpath:attributes"],
+        ["xpath=//section[@id='loginForm']/form/div/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": "12345"
+    }, {
+      "id": "9be7ac3e-beef-42c6-9372-70f0c4ab9a8b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-md-2 > .btn",
+      "targets": [
+        ["css=.col-md-2 > .btn", "css:finder"],
+        ["xpath=//input[@value='Log in']", "xpath:attributes"],
+        ["xpath=//section[@id='loginForm']/form/div/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "31d34cee-0636-4138-ad62-8e4816bcfce5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.alert",
+      "targets": [
+        ["css=.alert", "css:finder"],
+        ["xpath=//div[@id='MainContentPlaceholder']/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "22a2cc68-9fff-4490-9350-2ca999590058",
+    "name": "Login check",
+    "commands": [{
+      "id": "341e721d-05ea-4652-96c6-bcc9a971034e",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "85dd4a31-1b01-4785-8f73-840962d6a1ea",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1583x1157",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7ee8458e-77c8-4862-8102-dee2075236a0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-md-2 > .btn",
+      "targets": [
+        ["css=.col-md-2 > .btn", "css:finder"],
+        ["xpath=//input[@value='Log in']", "xpath:attributes"],
+        ["xpath=//section[@id='loginForm']/form/div/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3b70e05c-bb87-4bad-b71d-969ae64661a1",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "id=Email-error",
+      "targets": [
+        ["id=Email-error", "id"],
+        ["css=#Email-error", "css:finder"],
+        ["xpath=//span[@id='Email-error']", "xpath:attributes"],
+        ["xpath=//section[@id='loginForm']/form/div/div/div[2]/span/span", "xpath:idRelative"],
+        ["xpath=//span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e28fccd1-cc62-4544-b2a3-730afcfd123c",
+      "comment": "",
+      "command": "click",
+      "target": "id=t_and_c",
+      "targets": [
+        ["id=t_and_c", "id"],
+        ["name=t_and_c", "name"],
+        ["css=#t_and_c", "css:finder"],
+        ["xpath=//input[@id='t_and_c']", "xpath:attributes"],
+        ["xpath=//form[@id='signupform']/div/div[2]/div/div[7]/label/input", "xpath:idRelative"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c511c90f-64ae-4538-b5e5-ddb2243370e9",
+      "comment": "",
+      "command": "click",
+      "target": "id=FirstName",
+      "targets": [
+        ["id=FirstName", "id"],
+        ["name=FirstName", "name"],
+        ["css=#FirstName", "css:finder"],
+        ["xpath=//input[@id='FirstName']", "xpath:attributes"],
+        ["xpath=//form[@id='signupform']/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9697797a-3e45-4b35-80c0-0b820958c791",
+      "comment": "",
+      "command": "click",
+      "target": "id=LastName",
+      "targets": [
+        ["id=LastName", "id"],
+        ["name=LastName", "name"],
+        ["css=#LastName", "css:finder"],
+        ["xpath=//input[@id='LastName']", "xpath:attributes"],
+        ["xpath=//form[@id='signupform']/div/div[2]/div/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cfcfb07b-356c-40e1-99c1-066957978f03",
+      "comment": "",
+      "command": "click",
+      "target": "id=CompanyName",
+      "targets": [
+        ["id=CompanyName", "id"],
+        ["name=CompanyName", "name"],
+        ["css=#CompanyName", "css:finder"],
+        ["xpath=//input[@id='CompanyName']", "xpath:attributes"],
+        ["xpath=//form[@id='signupform']/div/div[2]/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b83b93d4-9535-4e5d-a67d-779f93b46624",
+      "comment": "",
+      "command": "click",
+      "target": "id=EMailAddress",
+      "targets": [
+        ["id=EMailAddress", "id"],
+        ["name=EMailAddress", "name"],
+        ["css=#EMailAddress", "css:finder"],
+        ["xpath=//input[@id='EMailAddress']", "xpath:attributes"],
+        ["xpath=//form[@id='signupform']/div/div[2]/div/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5814facb-4793-43ec-b38b-b230218fcd6d",
+      "comment": "",
+      "command": "click",
+      "target": "id=Phone",
+      "targets": [
+        ["id=Phone", "id"],
+        ["name=Phone", "name"],
+        ["css=#Phone", "css:finder"],
+        ["xpath=//input[@id='Phone']", "xpath:attributes"],
+        ["xpath=//form[@id='signupform']/div/div[2]/div/div[3]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7ff693f9-c6a6-4485-95f2-9d9ba7bc8089",
+      "comment": "",
+      "command": "click",
+      "target": "id=AddressLine1",
+      "targets": [
+        ["id=AddressLine1", "id"],
+        ["name=AddressLine1", "name"],
+        ["css=#AddressLine1", "css:finder"],
+        ["xpath=//input[@id='AddressLine1']", "xpath:attributes"],
+        ["xpath=//form[@id='signupform']/div/div[2]/div/div[4]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c0e640ad-486c-4a74-a6d1-16219eb86cfb",
+      "comment": "",
+      "command": "click",
+      "target": "id=AddressLine2",
+      "targets": [
+        ["id=AddressLine2", "id"],
+        ["name=AddressLine2", "name"],
+        ["css=#AddressLine2", "css:finder"],
+        ["xpath=//input[@id='AddressLine2']", "xpath:attributes"],
+        ["xpath=//form[@id='signupform']/div/div[2]/div/div[4]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6b8810ac-c777-4147-a60f-0a323a7c5bc0",
+      "comment": "",
+      "command": "click",
+      "target": "id=City",
+      "targets": [
+        ["id=City", "id"],
+        ["name=City", "name"],
+        ["css=#City", "css:finder"],
+        ["xpath=//input[@id='City']", "xpath:attributes"],
+        ["xpath=//form[@id='signupform']/div/div[2]/div/div[5]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac2de154-adf7-454f-8af7-e10771a74b65",
+      "comment": "",
+      "command": "click",
+      "target": "id=State",
+      "targets": [
+        ["id=State", "id"],
+        ["name=State", "name"],
+        ["css=#State", "css:finder"],
+        ["xpath=//input[@id='State']", "xpath:attributes"],
+        ["xpath=//form[@id='signupform']/div/div[2]/div/div[5]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "98e80c74-d3d8-46d7-9b78-2127a0e581dd",
+      "comment": "",
+      "command": "click",
+      "target": "id=ZipCode",
+      "targets": [
+        ["id=ZipCode", "id"],
+        ["name=ZipCode", "name"],
+        ["css=#ZipCode", "css:finder"],
+        ["xpath=//input[@id='ZipCode']", "xpath:attributes"],
+        ["xpath=//form[@id='signupform']/div/div[2]/div/div[5]/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5c69c93f-2a58-4a51-b8cd-3f6094191983",
+      "comment": "",
+      "command": "click",
+      "target": "id=Password",
+      "targets": [
+        ["id=Password", "id"],
+        ["name=Password", "name"],
+        ["css=#Password", "css:finder"],
+        ["xpath=//input[@id='Password']", "xpath:attributes"],
+        ["xpath=//form[@id='signupform']/div/div[2]/div/div[6]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "90107bf8-8ffa-4f10-a891-bf5846b3b4b4",
+      "comment": "",
+      "command": "click",
+      "target": "id=Password_confirmation",
+      "targets": [
+        ["id=Password_confirmation", "id"],
+        ["name=Password_confirmation", "name"],
+        ["css=#Password_confirmation", "css:finder"],
+        ["xpath=//input[@id='Password_confirmation']", "xpath:attributes"],
+        ["xpath=//form[@id='signupform']/div/div[2]/div/div[6]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1a57a8f4-f819-468e-9dc3-14036d130d42",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-error",
+      "targets": [
+        ["css=.btn-error", "css:finder"],
+        ["xpath=//input[@value='Reset']", "xpath:attributes"],
+        ["xpath=//form[@id='signupform']/div/div[2]/div/div[8]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[8]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1a31bae8-67aa-412a-bc8b-3b60da1dc5e9",
+      "comment": "",
+      "command": "click",
+      "target": "id=EMail",
+      "targets": [
+        ["id=EMail", "id"],
+        ["name=EMail", "name"],
+        ["css=#EMail", "css:finder"],
+        ["xpath=//input[@id='EMail']", "xpath:attributes"],
+        ["xpath=//form[@id='fpForm']/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f4942580-1fb5-4dc0-af2d-b734a09cc071",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//input[@value='Reset Password']", "xpath:attributes"],
+        ["xpath=//form[@id='fpForm']/div/div[2]/div/div/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cd286033-1bb2-4132-bf75-75b7177c68aa",
+      "comment": "",
+      "command": "click",
+      "target": "id=EMail-error",
+      "targets": [
+        ["id=EMail-error", "id"],
+        ["css=#EMail-error", "css:finder"],
+        ["xpath=//span[@id='EMail-error']", "xpath:attributes"],
+        ["xpath=//form[@id='fpForm']/div/div[2]/div/div/div/div/span", "xpath:idRelative"],
+        ["xpath=//div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'This field is required.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "65bfe476-68db-4775-baa7-aa360a2bd486",
+    "name": "Smoke Test 2",
+    "commands": [{
+      "id": "31e86983-f672-41f3-8d85-a1b2a81141b3",
+      "comment": "Open the DBE Goals website",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1face35f-1b64-424c-b4af-b50e6247e34d",
+      "comment": "Check page title",
+      "command": "assertTitle",
+      "target": "DBE Goals",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "44321fcc-626b-4e81-a566-b57c55629024",
+      "comment": "Set window size",
+      "command": "setWindowSize",
+      "target": "1024x768",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7354ea5f-58ee-4dea-a74e-bf8b71b31b57",
+      "comment": "",
+      "command": "store",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "adf5bc3d-7657-4c8a-816f-aa92a713307f",
+      "comment": "Verify that there is no email error message at start",
+      "command": "assertElementNotPresent",
+      "target": "id=Email-error",
+      "targets": [
+        ["id=Email-error", "id"],
+        ["css=#Email-error", "css:finder"],
+        ["xpath=//span[@id='Email-error']", "xpath:attributes"],
+        ["xpath=//section[@id='loginForm']/form/div/div/div[2]/span/span", "xpath:idRelative"],
+        ["xpath=//span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "91e2a75b-1e92-4635-b4fe-1bc9f01faa94",
+      "comment": "Click on login button with blank form",
+      "command": "click",
+      "target": "css=.col-md-2 > .btn",
+      "targets": [
+        ["css=.col-md-2 > .btn", "css:finder"],
+        ["xpath=//input[@value='Log in']", "xpath:attributes"],
+        ["xpath=//section[@id='loginForm']/form/div/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2bc86900-f797-46f5-8a3c-cbcdb31b4207",
+      "comment": "Check that email error is present",
+      "command": "assertElementPresent",
+      "target": "id=Email-error",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8c0133e7-c368-4aa5-a580-575e5a610da4",
+      "comment": "Check email missing error message",
+      "command": "assertText",
+      "target": "id=Email-error",
+      "targets": [
+        ["id=Email-error", "id"],
+        ["css=#Email-error", "css:finder"],
+        ["xpath=//span[@id='Email-error']", "xpath:attributes"],
+        ["xpath=//section[@id='loginForm']/form/div/div/div[2]/span/span", "xpath:idRelative"],
+        ["xpath=//span/span", "xpath:position"]
+      ],
+      "value": "The Email field is required."
+    }, {
+      "id": "ab7e9cdf-9e90-46c4-9ab1-ba44d1f4dff6",
+      "comment": "Enter an invalid email address",
+      "command": "type",
+      "target": "id=Email",
+      "targets": [
+        ["id=Email", "id"],
+        ["name=Email", "name"],
+        ["css=#Email", "css:finder"],
+        ["xpath=//input[@id='Email']", "xpath:attributes"],
+        ["xpath=//section[@id='loginForm']/form/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "abc"
+    }, {
+      "id": "c6dd1f97-3aee-4719-8248-1eca41b4fc42",
+      "comment": "Check for invalid email address error message",
+      "command": "assertText",
+      "target": "id=Email-error",
+      "targets": [
+        ["id=Email-error", "id"],
+        ["css=#Email-error", "css:finder"],
+        ["xpath=//span[@id='Email-error']", "xpath:attributes"],
+        ["xpath=//section[@id='loginForm']/form/div/div/div[2]/span/span", "xpath:idRelative"],
+        ["xpath=//span/span", "xpath:position"]
+      ],
+      "value": "The Email field is not a valid e-mail address."
+    }, {
+      "id": "d8edc2d9-0677-4878-9775-6635c87e73d1",
+      "comment": "Enter a valid email address",
+      "command": "type",
+      "target": "id=Email",
+      "targets": [],
+      "value": "email@example.com"
+    }, {
+      "id": "252a86c1-71ce-4a8f-bcd5-a3668a23bafd",
+      "comment": "Check that there a password missing error present",
+      "command": "assertElementPresent",
+      "target": "id=Password-error",
+      "targets": [
+        ["id=Password-error", "id"],
+        ["css=#Password-error", "css:finder"],
+        ["xpath=//span[@id='Password-error']", "xpath:attributes"],
+        ["xpath=//section[@id='loginForm']/form/div/div[2]/div[2]/span/span", "xpath:idRelative"],
+        ["xpath=//span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9b2ee386-776f-42ac-afd8-e66f7cdd2edc",
+      "comment": "Enter an email address",
+      "command": "type",
+      "target": "id=Password",
+      "targets": [
+        ["id=Password", "id"],
+        ["name=Password", "name"],
+        ["css=#Password", "css:finder"],
+        ["xpath=//input[@id='Password']", "xpath:attributes"],
+        ["xpath=//section[@id='loginForm']/form/div/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": "12345"
+    }, {
+      "id": "7cbed0b5-db48-4855-8f4b-679a9777ff0f",
+      "comment": "Check that an email error message is no longer present",
+      "command": "assertElementNotPresent",
+      "target": "id=Password-error",
+      "targets": [
+        ["id=Password-error", "id"],
+        ["css=#Password-error", "css:finder"],
+        ["xpath=//span[@id='Password-error']", "xpath:attributes"],
+        ["xpath=//section[@id='loginForm']/form/div/div[2]/div[2]/span/span", "xpath:idRelative"],
+        ["xpath=//span/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "b768230c-8b06-425f-aeb4-e25fa511672a",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["65bfe476-68db-4775-baa7-aa360a2bd486"]
+  }],
+  "urls": ["https://dbegoals.azdot.gov/"],
+  "plugins": []
+}
